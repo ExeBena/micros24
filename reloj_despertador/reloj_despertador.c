@@ -38,9 +38,6 @@ nivel bajo.
 #include "pico/time.h"
 #include "hardware/rtc.h"
 
-// Pines de segmentos y dígitos
-const uint SEGMENTOS[] = {0, 1, 2, 3, 4, 5, 6};  // PB0 a PB6
-const uint DIGITOS[] = {7, 8, 9, 10};  // PB7 a PB10
 
 // Definición del pulsador (PB16) y buzzer (PB17)
 #define PIN_PULSADOR 16

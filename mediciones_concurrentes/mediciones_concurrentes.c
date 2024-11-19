@@ -69,7 +69,7 @@ int main()
     adc_gpio_init(27);
 
     adc_init();
-    adc_set_round_robin(0b11);
+    adc_set_round_robin(0b00011);
 
     adc_fifo_setup(true,true,2,false,true);
     adc_set_clkdiv(2000);
